@@ -1,0 +1,6 @@
+C:\Users\Michelle Kong\Documents\RhysBuszkoGoogleCodeJam\obj\x86\Debug\GoogleCodeJamRepository.csprojAssemblyReference.cache
+C:\Users\Michelle Kong\Documents\RhysBuszkoGoogleCodeJam\obj\x86\Debug\GoogleCodeJamRepository.csproj.CoreCompileInputs.cache
+C:\Users\Michelle Kong\Documents\RhysBuszkoGoogleCodeJam\bin\Debug\ConsoleApplication.exe
+C:\Users\Michelle Kong\Documents\RhysBuszkoGoogleCodeJam\bin\Debug\ConsoleApplication.pdb
+C:\Users\Michelle Kong\Documents\RhysBuszkoGoogleCodeJam\obj\x86\Debug\ConsoleApplication.exe
+C:\Users\Michelle Kong\Documents\RhysBuszkoGoogleCodeJam\obj\x86\Debug\ConsoleApplication.pdb

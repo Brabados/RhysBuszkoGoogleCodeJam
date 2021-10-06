@@ -14,10 +14,10 @@ public class Forgone
         char[] SecondNumber = new char[1];
 
         Random r = new Random();
-
+        int iteration = 0;
         foreach (char x in CharNumbers)
         {
-            int iteration = 0;
+            
 
             int ModNumber = (int)char.GetNumericValue(x);
             int NumberA;
@@ -44,21 +44,47 @@ public class Forgone
                 NumberB = ModNumber - NumberA;
             }
 
-            FirstNumber[iteration] = (char)NumberA;
-            SecondNumber[iteration] = (char)NumberB;
+            string convertA = NumberA.ToString();
+            string convertB = NumberB.ToString();
+
+            FirstNumber[iteration] = convertA[0];
+            SecondNumber[iteration] = convertB[0];
 
             Array.Resize(ref FirstNumber, FirstNumber.Length + 1);
-            Array.Resize(ref SecondNumber, FirstNumber.Length + 1);
+            Array.Resize(ref SecondNumber, SecondNumber.Length + 1);
             iteration = iteration + 1;
         }
+        iteration = 0;
 
-        
+
 
         int[] AdditiveNumbers = new int[2];
 
-        AdditiveNumbers[0] = Convert.ToInt32(FirstNumber.ToString());
-        AdditiveNumbers[1] = Convert.ToInt32(FirstNumber.ToString());
+       string test1 = "";
+       string test2 = "";
 
+        foreach (char x in FirstNumber)
+        {
+            if (iteration != FirstNumber.Length - 1)
+            {
+                test1 += (int)char.GetNumericValue(x);
+            }
+            iteration = iteration + 1;
+        }
+
+        iteration = 0;
+
+        foreach (char x in SecondNumber)
+        {
+            if (iteration != SecondNumber.Length - 1)
+            {
+                test2 += (int)char.GetNumericValue(x);
+            }
+            iteration = iteration + 1;
+        }
+
+        AdditiveNumbers[0] = Convert.ToInt32(test1);
+        AdditiveNumbers[1] = Convert.ToInt32(test2);
 
         return AdditiveNumbers;
     }
