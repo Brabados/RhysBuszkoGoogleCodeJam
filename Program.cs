@@ -6,7 +6,8 @@ namespace RhysBuszkoGoogleCodeJam
     {
         static void Main(string[] args)
         {
-          
+
+
         }
     }
 }

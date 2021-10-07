@@ -44,7 +44,7 @@ namespace RhysBuszkoGoogleCodeJam
                     int y = 4;
                     while (y == 4)
                     {
-                        y = r.Next(1, ModNumber - 1);
+                        y = r.Next(0, ModNumber);
                     }
                     NumberA = y;
                     NumberB = ModNumber - NumberA;
@@ -53,11 +53,16 @@ namespace RhysBuszkoGoogleCodeJam
                 string convertA = NumberA.ToString();
                 string convertB = NumberB.ToString();
 
+                if (iteration != 0)
+                {
+                    Array.Resize(ref FirstNumber, FirstNumber.Length + 1);
+                    Array.Resize(ref SecondNumber, SecondNumber.Length + 1);
+                }
+
                 FirstNumber[iteration] = convertA[0];
                 SecondNumber[iteration] = convertB[0];
 
-                Array.Resize(ref FirstNumber, FirstNumber.Length + 1);
-                Array.Resize(ref SecondNumber, SecondNumber.Length + 1);
+
                 iteration = iteration + 1;
             }
             iteration = 0;
@@ -66,33 +71,33 @@ namespace RhysBuszkoGoogleCodeJam
 
             int[] AdditiveNumbers = new int[2];
 
-            string test1 = "";
-            string test2 = "";
-
-            foreach (char x in FirstNumber)
-            {
-                if (iteration != FirstNumber.Length - 1)
-                {
-                    test1 += (int)char.GetNumericValue(x);
-                }
-                iteration = iteration + 1;
-            }
-
-            iteration = 0;
-
-            foreach (char x in SecondNumber)
-            {
-                if (iteration != SecondNumber.Length - 1)
-                {
-                    test2 += (int)char.GetNumericValue(x);
-                }
-                iteration = iteration + 1;
-            }
-
-            AdditiveNumbers[0] = Convert.ToInt32(test1);
-            AdditiveNumbers[1] = Convert.ToInt32(test2);
+            AdditiveNumbers[0] = CharArrayToInt(FirstNumber);
+            AdditiveNumbers[1] = CharArrayToInt(SecondNumber);
 
             return AdditiveNumbers;
+        }
+
+        public int CharArrayToInt(char[] ToConvert)
+        {
+
+            int Iteration = 0;
+            int ToReturn = 0;
+
+            string CharConversion = "";
+
+            foreach (char x in ToConvert)
+            {
+                if (Iteration != ToConvert.Length)
+                {
+                    CharConversion += (int)char.GetNumericValue(x);
+                }
+                Iteration = Iteration + 1;
+            }
+
+            ToReturn = Convert.ToInt32(CharConversion);
+
+            return ToReturn;
+
         }
     }
 }
