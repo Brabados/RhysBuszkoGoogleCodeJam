@@ -14,10 +14,8 @@ namespace ForgoneTest
 
             int[] result = Forgone.Input(18149);
 
-            if (result[0] + result[1] != 18149)
-            {
-                throw new InvalidOperationException();
-            }
+            Assert.Equals(result[0] + result[1], 18149);
+            
         }
     }
 }
