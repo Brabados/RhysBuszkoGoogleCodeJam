@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Michelle Kong\\Documents\\RhysBuszkoGoogleCodeJam\\ForgoneTest\\ForgoneTest.csproj": {}
+    "C:\\Users\\Michelle Kong\\Documents\\RhysBuszkoGoogleCodeJam\\2019\\ForgoneTest\\ForgoneTest.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Michelle Kong\\Documents\\RhysBuszkoGoogleCodeJam\\ForgoneTest\\ForgoneTest.csproj": {
+    "C:\\Users\\Michelle Kong\\Documents\\RhysBuszkoGoogleCodeJam\\2019\\ForgoneTest\\ForgoneTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Michelle Kong\\Documents\\RhysBuszkoGoogleCodeJam\\ForgoneTest\\ForgoneTest.csproj",
+        "projectUniqueName": "C:\\Users\\Michelle Kong\\Documents\\RhysBuszkoGoogleCodeJam\\2019\\ForgoneTest\\ForgoneTest.csproj",
         "projectName": "ForgoneTest",
-        "projectPath": "C:\\Users\\Michelle Kong\\Documents\\RhysBuszkoGoogleCodeJam\\ForgoneTest\\ForgoneTest.csproj",
+        "projectPath": "C:\\Users\\Michelle Kong\\Documents\\RhysBuszkoGoogleCodeJam\\2019\\ForgoneTest\\ForgoneTest.csproj",
         "packagesPath": "C:\\Users\\Michelle Kong\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Michelle Kong\\Documents\\RhysBuszkoGoogleCodeJam\\ForgoneTest\\obj\\",
+        "outputPath": "C:\\Users\\Michelle Kong\\Documents\\RhysBuszkoGoogleCodeJam\\2019\\ForgoneTest\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -49,6 +49,10 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "dependencies": {
+            "MSTest.TestAdapter": {
+              "target": "Package",
+              "version": "[2.2.3, )"
+            },
             "MSTest.TestFramework": {
               "target": "Package",
               "version": "[2.2.3, )"

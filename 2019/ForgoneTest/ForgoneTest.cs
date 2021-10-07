@@ -12,9 +12,9 @@ namespace ForgoneTest
         {
             var Forgone = new Forgone();
 
-            int[] result = Forgone.Input(78149);
+            int[] result = Forgone.Input(18149);
 
-            if (result[0] + result[1] != 78149)
+            if (result[0] + result[1] != 18149)
             {
                 throw new InvalidOperationException();
             }

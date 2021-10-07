@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "q4Q7dV9MuB1obYt/Ocm7CA1tPRXH5SGhQAFGrZcuxC2Rc4U7xRYzUxWt9rNMQCUEFS6O3mRpn5Xu1jwwX/o9Ng==",
+  "dgSpecHash": "jJArYlvsDk6AmIw4F/l1/lGFMIh5f7t4J/zOzEcMcWN8V2YKZaSxlP0mCu7uyGcsL47FdX5rWJCq2YgE6pmM9Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Michelle Kong\\Documents\\RhysBuszkoGoogleCodeJam\\ForgoneTest\\ForgoneTest.csproj",
+  "projectFilePath": "C:\\Users\\Michelle Kong\\Documents\\RhysBuszkoGoogleCodeJam\\2019\\ForgoneTest\\ForgoneTest.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Michelle Kong\\.nuget\\packages\\coverlet.collector\\3.0.2\\coverlet.collector.3.0.2.nupkg.sha512",
     "C:\\Users\\Michelle Kong\\.nuget\\packages\\microsoft.codecoverage\\16.9.4\\microsoft.codecoverage.16.9.4.nupkg.sha512",
@@ -13,6 +13,7 @@
     "C:\\Users\\Michelle Kong\\.nuget\\packages\\microsoft.testplatform.objectmodel\\16.9.4\\microsoft.testplatform.objectmodel.16.9.4.nupkg.sha512",
     "C:\\Users\\Michelle Kong\\.nuget\\packages\\microsoft.testplatform.testhost\\16.9.4\\microsoft.testplatform.testhost.16.9.4.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.win32.primitives\\4.3.0\\microsoft.win32.primitives.4.3.0.nupkg.sha512",
+    "C:\\Users\\Michelle Kong\\.nuget\\packages\\mstest.testadapter\\2.2.3\\mstest.testadapter.2.2.3.nupkg.sha512",
     "C:\\Users\\Michelle Kong\\.nuget\\packages\\mstest.testframework\\2.2.3\\mstest.testframework.2.2.3.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\1.6.1\\netstandard.library.1.6.1.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\newtonsoft.json\\9.0.1\\newtonsoft.json.9.0.1.nupkg.sha512",

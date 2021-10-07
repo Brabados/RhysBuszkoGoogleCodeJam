@@ -5,4 +5,10 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Remove="2019\ForgoneTest\**" />
+    <EmbeddedResource Remove="2019\ForgoneTest\**" />
+    <None Remove="2019\ForgoneTest\**" />
+  </ItemGroup>
+
 </Project>
