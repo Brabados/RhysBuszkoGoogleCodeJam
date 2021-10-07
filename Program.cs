@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace RhysBuszkoGoogleCodeJam
+﻿namespace RhysBuszkoGoogleCodeJam
 {
     class Program
     {
