@@ -10,6 +10,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ForgoneTest", "2019\Forgone
 		{001F77C5-4C4E-48AA-B4B1-66151903E95A} = {001F77C5-4C4E-48AA-B4B1-66151903E95A}
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StandingTest", "2015\StandingTest\StandingTest\StandingTest.csproj", "{C0B1A7E3-658E-4EAC-839D-D760BCFCDDBA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,6 +26,10 @@ Global
 		{F999248E-14BA-4276-8D85-80E30D4A2A36}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F999248E-14BA-4276-8D85-80E30D4A2A36}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F999248E-14BA-4276-8D85-80E30D4A2A36}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0B1A7E3-658E-4EAC-839D-D760BCFCDDBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0B1A7E3-658E-4EAC-839D-D760BCFCDDBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0B1A7E3-658E-4EAC-839D-D760BCFCDDBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0B1A7E3-658E-4EAC-839D-D760BCFCDDBA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
