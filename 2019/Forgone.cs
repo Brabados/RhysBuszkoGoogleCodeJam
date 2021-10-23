@@ -1,5 +1,4 @@
-﻿namespace RhysBuszkoGoogleCodeJam
-{
+﻿
     using System;
 
     public class Forgone
@@ -96,5 +95,5 @@
 
         }
     }
-}
+
 

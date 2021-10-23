@@ -2,8 +2,7 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
 using RhysBuszkoGoogleCodeJam;
 
-namespace ForgoneTest
-{
+
     [TestClass]
     public class ForgoneTest
     {
@@ -33,4 +32,4 @@ namespace ForgoneTest
 
 
     }
-}
+
